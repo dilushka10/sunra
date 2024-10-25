@@ -1,0 +1,90 @@
+.product-view-page {
+    background-color: #f9f9f9;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brands-list {
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd;
+    margin-top: 20px;  
+}
+  
+  .brands-list ul {
+    padding: 0;
+  }
+  
+  .brands-list ul li {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .brands-list ul li:hover,
+  .brands-list ul li.active {
+    background-color: #ffea00;
+    color: white;
+  }
+  
+  .products-list {
+    padding: 20px;
+    margin-left: 16.666667%; /* This should match the width of the sidebar */
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card:hover .product-title {
+    color: var(--bs-warning);
+  }
+  
+  .product-image-container {
+    overflow: hidden;
+  }
+  
+  .product-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1);
+  }
+
+.full-height-row {
+  position: relative;
+}
+
+.sidebar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16.666667%; /* This is equivalent to col-md-2 */
+  overflow-y: auto;
+  background-color: inherit;
+  z-index: 1000;
+}
+
+.sidebar-content {
+  padding: 15px;
+}
+
+@media (max-width: 767px) {
+  .sidebar-fixed {
+    position: static;
+    width: 100%;
+  }
+
+  .products-list {
+    margin-left: 0;
+  }
+}

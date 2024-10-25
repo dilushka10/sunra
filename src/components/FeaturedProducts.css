@@ -1,0 +1,55 @@
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.card-image:hover .card-img-top {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.card-image:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.motorcycle-name {
+  color: white; /* Text color for the motorcycle name */
+  font-size: 1.5rem; /* Font size */
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.motorcycle-description {
+  color: white; /* Text color for the motorcycle description */
+  font-size: 1rem; /* Font size for description */
+  text-align: center;
+}
+
+.card-body {
+  text-align: center; /* Center-align text in the card body */
+}

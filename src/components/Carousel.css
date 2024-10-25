@@ -1,0 +1,8 @@
+.carousel-caption {
+    position: absolute; /* Ensures the caption is positioned relative to the carousel item */
+    left: 0; /* Aligns to the left */
+    bottom: 0; /* Aligns to the bottom */
+    padding: 20px; /* Adds some padding */
+    text-align: left; /* Aligns text to the left */
+  }
+  

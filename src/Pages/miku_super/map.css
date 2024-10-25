@@ -1,0 +1,30 @@
+.content-di h4 a {
+    display: block;
+    text-align: center;
+    background: #f0f0f0;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+}
+
+.content-di {
+    overflow: hidden;
+    line-height: 30px;
+    padding: 21px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.site_cell a {
+    float: left;
+    color: #666;
+    padding-right: 35px;
+    transition: none;
+}
+
+.site_cell a:hover {
+    color: #00904a;
+}
+
+.wang-tu {
+    padding: 50px 0;
+}

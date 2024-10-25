@@ -1,0 +1,48 @@
+.footer {
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text */
+  }
+  
+  .footer a {
+    color: #fff; /* Links in white */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #f0c400; /* Hover effect */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon-link {
+    margin: 0 8px;
+    color: #333; /* Adjust color as needed */
+    text-decoration: none;
+  }
+  
+  .social-icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon-circle:hover {
+    background-color: #f0f0f0; /* Adjust hover color as needed */
+  }
+  
+  .social-icon-circle i {
+    font-size: 20px; /* Adjust icon size as needed */
+  }
+  
+  .footer-bottom {
+    background-color: #0c7700; /* Red background for bottom section */
+    padding: 10px 0;
+  }
